@@ -18,7 +18,7 @@ jobs:
         gem install bundler
         bundle install
     - name: Build and deploy
-      uses: peaceiris/actions-jekyll-build-pages@v2
+      uses: jekyll/jekyll-github-actions@v2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: gh-pages  # Set the target branch for deployment
