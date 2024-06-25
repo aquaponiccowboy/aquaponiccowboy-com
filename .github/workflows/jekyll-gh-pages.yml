@@ -26,7 +26,7 @@ jobs:
         with:
           ruby-version: 3.0.0 # Use the Ruby version that matches your local environment
 
-      - name: Install Bundler
+      - name: Install Bundler --user-install
         run: gem install bundler
 
       - name: Install Jekyll dependencies
