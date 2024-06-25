@@ -40,3 +40,4 @@ jobs:
         with:
           github_token: ${{ secrets.AQUAPONICCOWBOY_COM_TOKEN }}
           publish_dir: ./_site
+          publish_branch: main
