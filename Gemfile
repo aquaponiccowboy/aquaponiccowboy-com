@@ -36,5 +36,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 #just-the-docs theem and requirements
 gem "jekyll-include-cache"
 gem "just-the-docs"
-
-
