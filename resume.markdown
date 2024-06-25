@@ -8,11 +8,12 @@ permalink: /resume/
 ## Built Truckhouse
 ### Self Employed
 #### AUG2023-FEB2024
+- I sold my house to bootstrap the Electric Vehicle Company. So i needed a place to live. I converted my 2000 chevy ck3500 dually pickup into a 128 square foot studio apartment on wheels. I want to travel as time and resources permit. YOLO. 
 
 ## Entrepenuer
 ### Self Employed
 #### SEPT2020-JUL2023
--I was one of the first people in the world to build a
+- I was one of the first people in the world to build a
 onewheel style electric vehicle using only open
 source components in my garage. I leveraged that
 experience into building a small online retail

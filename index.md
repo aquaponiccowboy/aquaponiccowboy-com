@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default 
 title: Elephant
-permalink: /elephant/
 ---
 
 # The Story of the Blind Men and an Elephant
