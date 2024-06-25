@@ -24,7 +24,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.0 # Use the Ruby version that matches your local environment
+          ruby-version: 3.0.2 # Use the Ruby version that matches your local environment
 
       - name: Install Bundler --user-install
         run: gem install bundler
