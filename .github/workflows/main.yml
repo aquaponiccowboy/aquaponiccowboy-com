@@ -1,0 +1,24 @@
+name: Build and deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - main  # Set the branch name to trigger the workflow
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0.2p107  # Set the Ruby version you want to use
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+    - name: Build and deploy
+      uses: peaceiris/actions-jekyll-build-pages@v2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: gh-pages  # Set the target branch for deployment
