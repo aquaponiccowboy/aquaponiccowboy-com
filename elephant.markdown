@@ -1,3 +1,11 @@
+---
+layout: page
+title: Elephant
+permalink: /elephant/
+---
+
+# The Story of the Blind Men and an Elephant
+
 The metaphor of the blind men describing an elephant is a classic tale that originated from the Indian subcontinent. It has been used in various religious traditions and philosophies to illustrate the nature of truth, reality, and human perception. The story goes like this:
 
 A group of blind men encounters an elephant for the first time. Each man touches a different part of the elephant, such as the trunk, tusk, ear, leg, or tail. Based on their limited individual experiences, they try to describe what an elephant is like.
