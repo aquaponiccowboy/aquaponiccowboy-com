@@ -25,6 +25,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0.2 # Use the Ruby version that matches your local environment
+          bundler-cache: true
 
       - name: Install Bundler --user-install
         run: gem install bundler
