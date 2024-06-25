@@ -39,5 +39,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.AQUAPONICCOWBOY_COM_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./
           publish_branch: gh-pages 
