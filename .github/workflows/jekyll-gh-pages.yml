@@ -34,6 +34,8 @@ jobs:
         run: gem install bundler --user-install
       - name: Verify PATH
         run: echo $PATH
+      - name: Clear Gem Cache (optional)
+        run: bundle clean --force
       - name: Install Jekyll gems
         run: bundle exec bundle install 
       - name: Install dependencies
