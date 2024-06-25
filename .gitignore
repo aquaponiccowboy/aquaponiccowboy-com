@@ -1,0 +1,3 @@
+/_site
+Gemfile.lock
+/.github/workflows/jekyll.yml
