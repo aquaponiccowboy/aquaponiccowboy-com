@@ -26,18 +26,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Add Bundler path to PATH
+        run: echo "/home/runner/.local/share/gem/ruby/3.0.0/bin" >> $GITHUB_PATH
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Bundler  
         run: gem install bundler --user-install
-      - name: Add Bundler path to PATH
-        run: echo "/home/runner/.local/share/gem/ruby/3.0.0/bin" >> $GITHUB_PATH
       - name: Verify PATH
         run: echo $PATH
       - name: Install Jekyll gems
-        run: /home/runner/.local/share/gem/ruby/3.0.0/bin/bundle install --user-install
+        run: bundle exec bundle install 
       - name: Install dependencies
-        run: /home/runner/.local/share/gem/ruby/3.0.0/bin/bundle exec jekyll build --user-install
+        run: /home/runner/.local/share/gem/ruby/3.0.0/bin/bundle exec jekyll build 
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
