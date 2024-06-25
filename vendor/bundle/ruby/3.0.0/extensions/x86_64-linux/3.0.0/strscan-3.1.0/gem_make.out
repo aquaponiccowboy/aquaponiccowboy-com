@@ -1,0 +1,17 @@
+current directory: /home/runner/work/aquaponiccowboy.github.io/aquaponiccowboy.github.io/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+/opt/hostedtoolcache/Ruby/3.0.2/x64/bin/ruby -I /opt/hostedtoolcache/Ruby/3.0.2/x64/lib/ruby/3.0.0 -r ./siteconf20240625-1744-4dq0qv.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /home/runner/work/aquaponiccowboy.github.io/aquaponiccowboy.github.io/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= clean
+
+current directory: /home/runner/work/aquaponiccowboy.github.io/aquaponiccowboy.github.io/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\=
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/runner/work/aquaponiccowboy.github.io/aquaponiccowboy.github.io/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240625-1744-5ga7ec
